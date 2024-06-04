@@ -26,7 +26,7 @@ function Services() {
                     </div>
                     <div className="services">
                         <h5>Plus</h5>
-                        <h3>$100 <span>/month</span></h3>
+                        <h3>$250 <span>/month</span></h3>
                         <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam</p>
                         <div className="tick">
                             <p><img src={tick} alt="" />Lorem ipsum dolor sit</p>
@@ -39,7 +39,7 @@ function Services() {
                     </div>
                     <div className="services">
                         <h5>Pro</h5>
-                        <h3>$100 <span>/month</span></h3>
+                        <h3>$400<span>/month</span></h3>
                         <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam</p>
                         <div className="tick">
                             <p><img src={tick} alt="" />Lorem ipsum dolor sit</p>

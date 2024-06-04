@@ -1,9 +1,13 @@
 .intruduction {
 
 
-    height: 600px;
+    height: 550px;
     display: flex;
     align-items: center;
+
+    .home_content {
+        margin-top: 70px;
+    }
 }
 
 .introduction_wrapper {
@@ -50,6 +54,9 @@
         flex-direction: column-reverse;
 
 
+        .home_content {
+            margin-top: 0px !important;
+        }
 
         img {
             width: 339px;
