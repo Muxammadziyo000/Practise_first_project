@@ -46,7 +46,44 @@
     }
 }
 
-@media (max-width:992px) {
+@media (max-width:1030px) {
+
+    .introduction_wrapper {
+        display: flex;
+        align-items: center;
+
+        .home_content {
+            margin-top: 0px !important;
+
+        }
+
+        img {
+            width: 459px;
+            height: 280px;
+        }
+
+        .home_content {
+            width: 350px;
+            margin: 0 auto;
+            margin-top: 20px;
+
+            h5 {
+                font-size: 14px;
+            }
+
+            h4 {
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+
+@media (max-width:860px) {
 
     .introduction_wrapper {
         display: flex;
@@ -129,7 +166,44 @@
     }
 }
 
-@media (max-width:992px) {
+@media (max-width:1030px) {
+    .partners {
+        .partners_wrapper {
+
+
+            h1 {
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 30px;
+                text-align: center;
+
+            }
+
+            p {
+
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 25px;
+                text-align: center;
+
+            }
+
+            .partners_link_wrapper {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                a {
+                    margin-left: 50px;
+
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:860px) {
     .partners {
         .partners_wrapper {
             width: 375px;
@@ -210,7 +284,40 @@
     }
 }
 
-@media (max-width:992px) {
+@media (max-width:1030px) {
+
+    .partners_wrapper_2_2 {
+        margin-top: 50px !important;
+        display: flex;
+
+
+
+
+    }
+
+    .partners_wrapper_2 {
+        .partners_content {
+            margin: 20px;
+            padding: 0px;
+        }
+
+        img {
+
+
+            height: 340px;
+        }
+
+        h4 {
+            width: 300px;
+            text-align: center;
+            font-size: 24px !important;
+            line-height: 25px !important;
+        }
+
+    }
+}
+
+@media (max-width:860px) {
 
     .partners_wrapper_2_2 {
         margin-top: 50px !important;
@@ -317,7 +424,21 @@
 
 
 
-@media (max-width:992px) {
+@media (max-width:1030px) {
+    .team_members {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        .member_team {
+            margin: 60px !important;
+        }
+
+    }
+}
+
+@media (max-width:860px) {
     .team_members {
         display: flex;
         flex-direction: column;

@@ -62,7 +62,23 @@
 }
 
 
-@media (max-width:992px) {
+
+@media (max-width:1030px) {
+    .project_wrapper {
+
+
+        .projects {
+            flex-wrap: wrap;
+
+            img {
+                width: 400px;
+                height: 250px;
+            }
+        }
+    }
+}
+
+@media (max-width:860px) {
     .project_wrapper {
         .project_content {
             h1 {
@@ -76,6 +92,8 @@
         }
 
         .projects {
+            flex-direction: column;
+
             img {
                 width: 335px;
                 height: 200px;
